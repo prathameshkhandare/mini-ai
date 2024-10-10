@@ -112,6 +112,7 @@ app.post('/chat', async(req, res) => {
 // Starting the server and listening on the defined port
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
+    console.log(`http://localhost:${port}`);
 });
 
 // npm install @google/generative-ai express - Reminder to install necessary packages before running the server
